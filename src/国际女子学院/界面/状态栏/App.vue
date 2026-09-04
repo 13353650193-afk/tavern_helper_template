@@ -15,7 +15,7 @@
     </div>
 
     <div v-if="current_name" class="content-area">
-      <CharacterStatus />
+      <CharacterStatus :name="current_name" />
     </div>
     <div v-else class="content-area">
       <div class="empty-hint">暂无在场女主</div>
