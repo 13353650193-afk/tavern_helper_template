@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* 功能语义配色 */
+  --c-primary: #c2185b;
+  --c-surface: #fff6f8;
+  --c-surface-alt: #fdeff3;
+  --c-text: #4a2330;
+  --c-text-muted: #b06c85;
+  --c-border: #f0c4d4;
+  --c-accent: #e91e63;
+
+  --font-body: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "系统": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "当前时间": {
+          "default": "开学日",
+          "type": "string"
+        },
+        "当前场景": {
+          "default": "教室",
+          "type": "string"
+        },
+        "当前显示女主": {
+          "default": "",
+          "type": "string"
+        }
+      }
+    },
+    "在场女主": {
+      "default": {},
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "description": "女主姓名"
+      },
+      "additionalProperties": {
+        "default": {},
+        "type": "object",
+        "properties": {
+          "当前服装": {
+            "default": "",
+            "type": "string"
+          },
+          "内心话": {
+            "default": "",
+            "type": "string"
+          },
+          "内衣状态": {
+            "default": "",
+            "type": "string"
+          },
+          "小穴状态": {
+            "default": "",
+            "type": "string"
+          },
+          "袜子与鞋": {
+            "default": "",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
